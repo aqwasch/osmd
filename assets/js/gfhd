@@ -1,0 +1,628 @@
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("memkeber").classList.remove("showmem");
+});
+
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("memkeber").classList.add("hidemem");
+});
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("mempendi").classList.remove("showmem");
+});
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("mempendi").classList.add("hidemem");
+});
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("memhumas").classList.remove("showmem");
+});
+
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("memhumas").classList.add("hidemem");
+});
+
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("memkedis").classList.add("hidemem");
+});
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("memkedis").classList.remove("showmem");
+});
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("membahas").classList.add("hidemem");
+});
+
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("membahas").classList.remove("showmem");
+});
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("memmedia").classList.remove("showmem");
+});
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("memmedia").classList.add("hidemem");
+});
+
+
+
+//first hidemem (orkes)
+
+
+
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("memorkes").classList.add("showmem");
+});
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("memorkes").classList.remove("hidemem");
+});
+
+//orkes
+
+
+document.getElementById("humas").addEventListener("click", () => {
+  document.getElementById("memorkes").classList.add("hidemem");
+});
+
+document.getElementById("humas").addEventListener("click", () => {
+  document.getElementById("memorkes").classList.remove("showmem");
+});
+
+
+document.getElementById("humas").addEventListener("click", () => {
+  document.getElementById("memkeber").classList.remove("showmem");
+});
+
+document.getElementById("humas").addEventListener("click", () => {
+  document.getElementById("memkeber").classList.add("hidemem");
+});
+
+document.getElementById("humas").addEventListener("click", () => {
+  document.getElementById("mempendi").classList.remove("showmem");
+});
+
+
+document.getElementById("humas").addEventListener("click", () => {
+  document.getElementById("mempendi").classList.add("hidemem");
+});
+
+
+document.getElementById("humas").addEventListener("click", () => {
+  document.getElementById("memkedis").classList.add("hidemem");
+});
+
+document.getElementById("humas").addEventListener("click", () => {
+  document.getElementById("memkedis").classList.remove("showmem");
+});
+
+document.getElementById("humas").addEventListener("click", () => {
+  document.getElementById("membahas").classList.add("hidemem");
+});
+
+
+document.getElementById("humas").addEventListener("click", () => {
+  document.getElementById("membahas").classList.remove("showmem");
+});
+
+document.getElementById("humas").addEventListener("click", () => {
+  document.getElementById("memmedia").classList.remove("showmem");
+});
+
+document.getElementById("humas").addEventListener("click", () => {
+  document.getElementById("memmedia").classList.add("hidemem");
+});
+
+// fourth hidemem humas
+
+document.getElementById("humas").addEventListener("click", () => {
+  document.getElementById("memhumas").classList.add("showmem");
+});
+
+document.getElementById("humas").addEventListener("click", () => {
+  document.getElementById("memhumas").classList.remove("hidemem");
+});
+
+
+
+
+
+
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("memkeber").classList.remove("showmem");
+});
+
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("memkeber").classList.add("hidemem");
+});
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("mempendi").classList.remove("showmem");
+});
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("mempendi").classList.add("hidemem");
+});
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("memhumas").classList.remove("showmem");
+});
+
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("memhumas").classList.add("hidemem");
+});
+
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("memkedis").classList.add("hidemem");
+});
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("memkedis").classList.remove("showmem");
+});
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("membahas").classList.add("hidemem");
+});
+
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("membahas").classList.remove("showmem");
+});
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("memmedia").classList.remove("showmem");
+});
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("memmedia").classList.add("hidemem");
+});
+
+
+
+//first hidemem (orkes)
+
+
+
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("memorkes").classList.add("showmem");
+});
+
+document.getElementById("orkes").addEventListener("click", () => {
+  document.getElementById("memorkes").classList.remove("hidemem");
+});
+
+//orkes
+
+
+document.getElementById("humas").addEventListener("click", () => {
+  document.getElementById("memorkes").classList.add("hidemem");
+});
+
+document.getElementById("humas").addEventListener("click", () => {
+  document.getElementById("memorkes").classList.remove("showmem");
+});
+
+
+document.getElementById("humas").addEventListener("click", () => {
+  document.getElementById("memkeber").classList.remove("showmem");
+});
+
+document.getElementById("humas").addEventListener("click", () => {
+  document.getElementById("memkeber").classList.add("hidemem");
+});
+
+document.getElementById("humas").addEventListener("click", () => {
+  document.getElementById("mempendi").classList.remove("showmem");
+});
+
+
+document.getElementById("humas").addEventListener("click", () => {
+  document.getElementById("mempendi").classList.add("hidemem");
+});
+
+
+document.getElementById("humas").addEventListener("click", () => {
+  document.getElementById("memkedis").classList.add("hidemem");
+});
+
+document.getElementById("humas").addEventListener("click", () => {
+  document.getElementById("memkedis").classList.remove("showmem");
+});
+
+document.getElementById("humas").addEventListener("click", () => {
+  document.getElementById("membahas").classList.add("hidemem");
+});
+
+
+document.getElementById("humas").addEventListener("click", () => {
+  document.getElementById("membahas").classList.remove("showmem");
+});
+
+document.getElementById("humas").addEventListener("click", () => {
+  document.getElementById("memmedia").classList.remove("showmem");
+});
+
+
+
+
+
+
+
+document.getElementById("keber").addEventListener("click", () => {
+  document.getElementById("memhumas").classList.add("hidemem");
+});
+
+document.getElementById("keber").addEventListener("click", () => {
+  document.getElementById("memhumas").classList.remove("showmem");
+});
+document.getElementById("keber").addEventListener("click", () => {
+  document.getElementById("memorkes").classList.add("hidemem");
+});
+
+document.getElementById("keber").addEventListener("click", () => {
+  document.getElementById("memorkes").classList.remove("showmem");
+});
+
+document.getElementById("keber").addEventListener("click", () => {
+  document.getElementById("mempendi").classList.remove("showmem");
+});
+
+
+document.getElementById("keber").addEventListener("click", () => {
+  document.getElementById("mempendi").classList.add("hidemem");
+});
+
+
+document.getElementById("keber").addEventListener("click", () => {
+  document.getElementById("memkedis").classList.add("hidemem");
+});
+
+document.getElementById("keber").addEventListener("click", () => {
+  document.getElementById("memkedis").classList.remove("showmem");
+});
+
+document.getElementById("keber").addEventListener("click", () => {
+  document.getElementById("membahas").classList.add("hidemem");
+});
+
+
+document.getElementById("keber").addEventListener("click", () => {
+  document.getElementById("membahas").classList.remove("showmem");
+});
+
+document.getElementById("keber").addEventListener("click", () => {
+  document.getElementById("memmedia").classList.remove("showmem");
+});
+
+document.getElementById("keber").addEventListener("click", () => {
+  document.getElementById("memmedia").classList.add("hidemem");
+});
+
+// fourth hidemem keber
+
+document.getElementById("keber").addEventListener("click", () => {
+  document.getElementById("memkeber").classList.add("showmem");
+});
+
+document.getElementById("keber").addEventListener("click", () => {
+  document.getElementById("memkeber").classList.remove("hidemem");
+});
+
+
+
+
+
+
+
+
+document.getElementById("pendi").addEventListener("click", () => {
+  document.getElementById("memhumas").classList.add("hidemem");
+});
+
+document.getElementById("pendi").addEventListener("click", () => {
+  document.getElementById("memhumas").classList.remove("showmem");
+});
+document.getElementById("pendi").addEventListener("click", () => {
+  document.getElementById("memorkes").classList.add("hidemem");
+});
+
+document.getElementById("pendi").addEventListener("click", () => {
+  document.getElementById("memorkes").classList.remove("showmem");
+});
+
+
+document.getElementById("pendi").addEventListener("click", () => {
+  document.getElementById("memkeber").classList.remove("showmem");
+});
+
+document.getElementById("pendi").addEventListener("click", () => {
+  document.getElementById("memkeber").classList.add("hidemem");
+});
+
+
+
+document.getElementById("pendi").addEventListener("click", () => {
+  document.getElementById("memkedis").classList.add("hidemem");
+});
+
+document.getElementById("pendi").addEventListener("click", () => {
+  document.getElementById("memkedis").classList.remove("showmem");
+});
+
+document.getElementById("pendi").addEventListener("click", () => {
+  document.getElementById("membahas").classList.add("hidemem");
+});
+
+
+document.getElementById("pendi").addEventListener("click", () => {
+  document.getElementById("membahas").classList.remove("showmem");
+});
+
+document.getElementById("pendi").addEventListener("click", () => {
+  document.getElementById("memmedia").classList.remove("showmem");
+});
+
+document.getElementById("pendi").addEventListener("click", () => {
+  document.getElementById("memmedia").classList.add("hidemem");
+});
+
+// fourth hidemem pendi
+
+document.getElementById("pendi").addEventListener("click", () => {
+  document.getElementById("mempendi").classList.add("showmem");
+});
+
+document.getElementById("pendi").addEventListener("click", () => {
+  document.getElementById("mempendi").classList.remove("hidemem");
+});
+
+
+
+
+
+
+document.getElementById("kedis").addEventListener("click", () => {
+  document.getElementById("memhumas").classList.add("hidemem");
+});
+
+document.getElementById("kedis").addEventListener("click", () => {
+  document.getElementById("memhumas").classList.remove("showmem");
+});
+document.getElementById("kedis").addEventListener("click", () => {
+  document.getElementById("memorkes").classList.add("hidemem");
+});
+
+document.getElementById("kedis").addEventListener("click", () => {
+  document.getElementById("memorkes").classList.remove("showmem");
+});
+
+
+document.getElementById("kedis").addEventListener("click", () => {
+  document.getElementById("memkedis").classList.remove("showmem");
+});
+
+document.getElementById("kedis").addEventListener("click", () => {
+  document.getElementById("memkedis").classList.add("hidemem");
+});
+
+document.getElementById("kedis").addEventListener("click", () => {
+  document.getElementById("memkedis").classList.remove("showmem");
+});
+
+
+document.getElementById("kedis").addEventListener("click", () => {
+  document.getElementById("memkedis").classList.add("hidemem");
+});
+
+
+document.getElementById("kedis").addEventListener("click", () => {
+  document.getElementById("mempendi").classList.add("hidemem");
+});
+
+document.getElementById("kedis").addEventListener("click", () => {
+  document.getElementById("mempendi").classList.remove("showmem");
+});
+
+document.getElementById("kedis").addEventListener("click", () => {
+  document.getElementById("membahas").classList.add("hidemem");
+});
+
+
+document.getElementById("kedis").addEventListener("click", () => {
+  document.getElementById("membahas").classList.remove("showmem");
+});
+
+document.getElementById("kedis").addEventListener("click", () => {
+  document.getElementById("memmedia").classList.remove("showmem");
+});
+
+document.getElementById("kedis").addEventListener("click", () => {
+  document.getElementById("memmedia").classList.add("hidemem");
+});
+
+// fourth hidemem kedis
+
+document.getElementById("kedis").addEventListener("click", () => {
+  document.getElementById("memkedis").classList.add("showmem");
+});
+
+document.getElementById("kedis").addEventListener("click", () => {
+  document.getElementById("memkedis").classList.remove("hidemem");
+});
+
+
+
+
+
+
+
+
+
+
+
+
+document.getElementById("bahas").addEventListener("click", () => {
+  document.getElementById("memhumas").classList.add("hidemem");
+});
+
+document.getElementById("bahas").addEventListener("click", () => {
+  document.getElementById("memhumas").classList.remove("showmem");
+});
+document.getElementById("bahas").addEventListener("click", () => {
+  document.getElementById("memorkes").classList.add("hidemem");
+});
+
+document.getElementById("bahas").addEventListener("click", () => {
+  document.getElementById("memorkes").classList.remove("showmem");
+});
+
+
+document.getElementById("bahas").addEventListener("click", () => {
+  document.getElementById("memkeber").classList.remove("showmem");
+});
+
+document.getElementById("bahas").addEventListener("click", () => {
+  document.getElementById("memkeber").classList.add("hidemem");
+});
+
+
+
+document.getElementById("bahas").addEventListener("click", () => {
+  document.getElementById("memkedis").classList.add("hidemem");
+});
+
+document.getElementById("bahas").addEventListener("click", () => {
+  document.getElementById("memkedis").classList.remove("showmem");
+});
+
+document.getElementById("bahas").addEventListener("click", () => {
+  document.getElementById("mempendi").classList.add("hidemem");
+});
+
+
+document.getElementById("bahas").addEventListener("click", () => {
+  document.getElementById("mempendi").classList.remove("showmem");
+});
+
+document.getElementById("bahas").addEventListener("click", () => {
+  document.getElementById("memmedia").classList.remove("showmem");
+});
+
+document.getElementById("bahas").addEventListener("click", () => {
+  document.getElementById("memmedia").classList.add("hidemem");
+});
+
+// fourth hidemem pendi
+
+document.getElementById("bahas").addEventListener("click", () => {
+  document.getElementById("membahas").classList.add("showmem");
+});
+
+document.getElementById("bahas").addEventListener("click", () => {
+  document.getElementById("membahas").classList.remove("hidemem");
+});
+
+
+
+
+
+
+
+
+
+
+document.getElementById("media").addEventListener("click", () => {
+  document.getElementById("memhumas").classList.add("hidemem");
+});
+
+document.getElementById("media").addEventListener("click", () => {
+  document.getElementById("memhumas").classList.remove("showmem");
+});
+document.getElementById("media").addEventListener("click", () => {
+  document.getElementById("memorkes").classList.add("hidemem");
+});
+
+document.getElementById("media").addEventListener("click", () => {
+  document.getElementById("memorkes").classList.remove("showmem");
+});
+
+
+document.getElementById("media").addEventListener("click", () => {
+  document.getElementById("memkeber").classList.remove("showmem");
+});
+
+document.getElementById("media").addEventListener("click", () => {
+  document.getElementById("memkeber").classList.add("hidemem");
+});
+
+
+
+document.getElementById("media").addEventListener("click", () => {
+  document.getElementById("memkedis").classList.add("hidemem");
+});
+
+document.getElementById("media").addEventListener("click", () => {
+  document.getElementById("memkedis").classList.remove("showmem");
+});
+
+document.getElementById("media").addEventListener("click", () => {
+  document.getElementById("membahas").classList.add("hidemem");
+});
+
+
+document.getElementById("media").addEventListener("click", () => {
+  document.getElementById("membahas").classList.remove("showmem");
+});
+
+document.getElementById("media").addEventListener("click", () => {
+  document.getElementById("mempendi").classList.remove("showmem");
+});
+
+document.getElementById("media").addEventListener("click", () => {
+  document.getElementById("mempendi").classList.add("hidemem");
+});
+
+// fourth hidemem pendi
+
+document.getElementById("media").addEventListener("click", () => {
+  document.getElementById("memmedia").classList.add("showmem");
+});
+
+document.getElementById("media").addEventListener("click", () => {
+  document.getElementById("memmedia").classList.remove("hidemem");
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
