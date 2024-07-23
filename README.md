@@ -6,6 +6,4 @@ _Instructions for Media team_
 <br>
 • Push your code into the repo
 <br>
-• Go to the releases tab and add a release
-<br>
 • Consult hosting PiC
