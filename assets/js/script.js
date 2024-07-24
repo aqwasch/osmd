@@ -2216,6 +2216,76 @@ document.getElementById("media").addEventListener("click", () => {
 
 
 
+document.getElementById("photos").addEventListener("click", () => {
+  document.getElementById("photos").classList.add("activermen")
+})
+
+
+document.getElementById("photos").addEventListener("click", () => {
+  document.getElementById("photos").classList.remove("desactivermen")
+})
+
+
+
+document.getElementById("photos").addEventListener("click", () => {
+  document.getElementById("videos").classList.add("desactivermen")
+})
+
+
+document.getElementById("photos").addEventListener("click", () => {
+  document.getElementById("videos").classList.remove("activermen")
+})
+
+document.getElementById("photos").addEventListener("click", () => {
+  // Get all elements with the class 'scrollimg' that also have the class 'showimg'
+  const elements = document.querySelectorAll(".scrollimg");
+
+  // Loop through each element to remove the 'showimg' class
+  elements.forEach(element => {
+    element.classList.remove("hideimgi");
+    element.classList.add("showimgi");
+  });
+});
+
+
+
+
+
+
+
+
+document.getElementById("videos").addEventListener("click", () => {
+  document.getElementById("videos").classList.add("activermen")
+})
+
+
+document.getElementById("videos").addEventListener("click", () => {
+  document.getElementById("videos").classList.remove("desactivermen")
+})
+
+
+
+document.getElementById("videos").addEventListener("click", () => {
+  document.getElementById("photos").classList.add("desactivermen")
+})
+
+
+document.getElementById("videos").addEventListener("click", () => {
+  document.getElementById("photos").classList.remove("activermen")
+})
+
+
+
+document.getElementById("videos").addEventListener("click", () => {
+  // Get all elements with the class 'scrollimg' that also have the class 'showimg'
+  const elements = document.querySelectorAll(".scrollimg");
+
+  // Loop through each element to remove the 'showimg' class
+  elements.forEach(element => {
+    element.classList.remove("showimgi");
+    element.classList.add("hideimgi");
+  });
+});
 
 
 
@@ -2228,6 +2298,105 @@ document.getElementById("media").addEventListener("click", () => {
 
 
 
+
+
+
+
+
+
+
+
+document.getElementById("ephotos").addEventListener("click", () => {
+  document.getElementById("ephotos").classList.add("activermen")
+})
+
+
+document.getElementById("ephotos").addEventListener("click", () => {
+  document.getElementById("ephotos").classList.remove("desactivermen")
+})
+
+
+
+document.getElementById("ephotos").addEventListener("click", () => {
+  document.getElementById("evideos").classList.add("desactivermen")
+})
+
+
+document.getElementById("ephotos").addEventListener("click", () => {
+  document.getElementById("evideos").classList.remove("activermen")
+})
+
+
+
+document.getElementById("evideos").addEventListener("click", () => {
+  document.getElementById("evideos").classList.add("activermen")
+})
+
+
+document.getElementById("evideos").addEventListener("click", () => {
+  document.getElementById("evideos").classList.remove("desactivermen")
+})
+
+
+
+document.getElementById("evideos").addEventListener("click", () => {
+  document.getElementById("ephotos").classList.add("desactivermen")
+})
+
+
+document.getElementById("evideos").addEventListener("click", () => {
+  document.getElementById("photos").classList.remove("activermen")
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.addEventListener("click", (event) => {
+  const dinglepop = document.getElementById("dinglepop");
+  if (!dinglepop.contains(event.target) && !event.target.matches('#dingle')) {
+      dinglepop.classList.remove("popupshow");
+      dinglepop.classList.add("popuphide");
+  }
+});
+
+
+document.getElementById("dingle").addEventListener("click", () => {
+  document.getElementById("dinglepop").classList.remove("popuphide");
+  document.getElementById("dinglepop").classList.add("popupshow");
+  document.body.classList.add("blur-effect");
+  document.body.classList.add("no-scroll");
+});
+
+document.getElementById("dinglepop").addEventListener("click", (event) => {
+  event.stopPropagation(); // Stop click event propagation
+});
+
+document.addEventListener("click", (event) => {
+  const dinglepop = document.getElementById("dinglepop");
+  if (!dinglepop.contains(event.target) && !event.target.matches('#dingle')) {
+      dinglepop.classList.remove("popupshow");
+      dinglepop.classList.add("popuphide");
+      document.body.classList.remove("blur-effect");
+      document.body.classList.remove("no-scroll");
+  }
+});
+
+
+document.getElementById("dingle").addEventListener("click", () => {
+  document.getElementById("dinglepop").classList.remove("popuphide")
+  document.getElementById("dinglepop").classlist.add("popupshow")
+})
 
 
 

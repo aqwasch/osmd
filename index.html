@@ -8,7 +8,24 @@
   <title>OSMD</title>
 </head>
 
-<body>
+<body id="body">
+  <div class="popup popuphide exclude" id="dinglepop">
+<div class="profilebox exclude"></div>
+<p class="title profiletitle exclude">Quandale Dingle</p>
+<p class="divinfo exclude">Ketua Humas</p>
+<p class="exclude desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur sem quis mi ultricies viverra. Phasellus vestibulum pellentesque mattis. Sed vel nulla ligula. Integer quis augue metus. Sed aliquam tellus vel gravida gravida. Ut mollis blandit lacus, at facilisis mauris laoreet eleifend. Vestibulum congue et ipsum et pretium.
+
+</div>
+
+
+<div class="popup popuphide exclude" id="fatihpop">
+  <div class="profilebox exclude"></div>
+  <p class="title profiletitle exclude">Muhammad Al-Fatih Azami</p>
+  <p class="divinfo exclude">Wakil Ketua</p>
+  <p class="exclude desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur sem quis mi ultricies viverra. Phasellus vestibulum pellentesque mattis. Sed vel nulla ligula. Integer quis augue metus. Sed aliquam tellus vel gravida gravida. Ut mollis blandit lacus, at facilisis mauris laoreet eleifend. Vestibulum congue et ipsum et pretium.
+  
+  </div>
+
   <main class="bento">
     <div class="bento__container" variant-1>
       <div class="bento__item" id="title" style="--height: span 10; --width: span 6;">
@@ -34,19 +51,18 @@
         </div>
       <div class="bento__item" id="profile2" style="--height: span 3; --width: span 6;">
         <div id="sub" class="profilesq"></div>
-        <h1 style="color: white; font-family: fraktion; margin-left: 350px; margin-top: 70px; font-size: 20px;">Matih Azami</h1>
-        <p style="color: rgb(13, 159, 15); font-family: fraktion; margin-left: 350px; margin-top: 0px; font-size: 15px; font-style:italic ;">Wakil Ketua OSMD</p>
+        <h1 id="fatih" style="color: white; font-family: fraktion; margin-left: 350px; margin-top: 70px; font-size: 20px;">Matih Azami</h1>
+        <p  style="color: rgb(13, 159, 15); font-family: fraktion; margin-left: 350px; margin-top: 0px; font-size: 15px; font-style:italic ;">Wakil Ketua OSMD</p>
         <p style="color: white; font-family: fraktion; margin-left: 350px; margin-top: 30px; margin-right: 50px; font-size: 10px;">Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
        
       </div>
       <div class="bento__item" id="divisi" style="--height: span 6; --width: span 3;">
-
         <div style="width: 100%; height:100%"id="memhumas" class="showmem">
         <div class="divisisq "><img src="assets\images\humas.png" style="height: 130%; position: absolute; top: -7vh; left: -2vw;" alt="logohumas"></div>
         <div class="divisiinfo">
           <div class="ketuadiv">
           <p class="ketua" style="--color: rgb(0, 183, 255);">Ketua</p>
-          <p class="ketuatext">Quandale Dingle</p>
+          <p id="dingle" class="ketuatext">Quandale Dingle</p>
           </div>
           <div class="anggodiv">
           <p style="--color: rgb(0, 183, 255)" class="anggota">Anggota</p>
@@ -846,7 +862,7 @@ function smoothScrollTo(scrollContainer, targetPosition, duration) {
 
         </script>
           <a id="p1" href="https://github.com/aqwasch" target="_blank"><div>footer</div></a>
-      <div class="bento__item" id="dropdown" style="--height: span 16; --width: span 9;">
+      <div class="bento__item" id="dropdown" style="--height: span 5; --width: span 9;">
         <div class="cont">
 
 
@@ -854,29 +870,33 @@ function smoothScrollTo(scrollContainer, targetPosition, duration) {
           <nav class="bar-navigation">
             <ul class="nav-list" style="--total: 4;">
               <li class="nav-item" id="i1" style="--i:0; --offsetdone:0vw; --color: var(--color-green)" tabindex="1">  
-                <h1 id="photos" class="header">↑      Photos</h1>
-            <div class="scrollimg showimg" id="imghumas">
-              <div class="img" style="height: 60%;">
+                <h1 id="media" class="header">↑      Media</h1>
+                <p id="photos" class="activermen"style="--offset: -70px;">Photos</p>
+                <p id="divider" style="--offset: 0px;">/</p>
+                <p id="videos" class="desactivermen" style="--offset: 20px">Videos</p>
+            <div class="video" id="vidhumas"></div>
+            <div class="scrollimg showimg" id="imghumas" >
+              <div class="img" style="height: 600px;">
                 <div class="imgtitle"><p class="imgtext">Humas menyalurkan dana di Desa Fukang, Gunungkidul //</p><p class="bullet"><p style="color: red;  display: inline;margin: 1px; top: -16px;">•</p><p style="color: rgb(255, 200, 0);  display: inline;margin: 1px;top: -16px;">•</p><p style="color: rgba(0, 184, 37, 0.714);  display: inline; margin: 1px;top: -16px;">•</p></p></div>
               </div>
-              <div class="img" style="height: 20%;">
+              <div class="img" style="height: 600px;">
                 <div class="imgtitle"><p class="imgtext">Humas menyalurkan dana di Desa Fukang, Gunungkidul //</p><p class="bullet"><p style="color: red;  display: inline;margin: 1px; top: -16px;">•</p><p style="color: rgb(255, 200, 0);  display: inline;margin: 1px;top: -16px;">•</p><p style="color: rgba(0, 184, 37, 0.714);  display: inline; margin: 1px;top: -16px;">•</p></p></div>
 
               </div>
-              <div class="img" style="height: 80%;">
+              <div class="img" style="height: 400px;">
                 <div class="imgtitle"><p class="imgtext">Humas menyalurkan dana di Desa Fukang, Gunungkidul //</p><p class="bullet"><p style="color: red;  display: inline;margin: 1px; top: -16px;">•</p><p style="color: rgb(255, 200, 0);  display: inline;margin: 1px;top: -16px;">•</p><p style="color: rgba(0, 184, 37, 0.714);  display: inline; margin: 1px;top: -16px;">•</p></p></div>
 
               </div>
-              <div class="img" style="height: 20%;">
+              <div class="img" style="height: 400px;">
                 <div class="imgtitle"><p class="imgtext">Humas menyalurkan dana di Desa Fukang, Gunungkidul //</p><p class="bullet"><p style="color: red;  display: inline;margin: 1px; top: -16px;">•</p><p style="color: rgb(255, 200, 0);  display: inline;margin: 1px;top: -16px;">•</p><p style="color: rgba(0, 184, 37, 0.714);  display: inline; margin: 1px;top: -16px;">•</p></p></div>
               </div>
               </div>
 
-                <div class="scrollimg hideimg" id="imgorkes">
-                <div class="img" style="height: 60%;">
+                <div class="scrollimg hideimg" id="imgorkes" >
+                <div class="img" style="height: 400px;">
                   <div class="imgtitle"><p class="imgtext">Orkes menyalurkan dana di Desa Fukang, Gunungkidul //</p><p class="bullet"><p style="color: red;  display: inline;margin: 1px; top: -16px;">•</p><p style="color: rgb(255, 200, 0);  display: inline;margin: 1px;top: -16px;">•</p><p style="color: rgba(0, 184, 37, 0.714);  display: inline; margin: 1px;top: -16px;">•</p></p></div>
                 </div>
-                <div class="img" style="height: 20%;">
+                <div class="img" style="height: 400px;">
                   <div class="imgtitle"><p class="imgtext">Humas menyalurkan dana di Desa Fukang, Gunungkidul //</p><p class="bullet"><p style="color: red;  display: inline;margin: 1px; top: -16px;">•</p><p style="color: rgb(255, 200, 0);  display: inline;margin: 1px;top: -16px;">•</p><p style="color: rgba(0, 184, 37, 0.714);  display: inline; margin: 1px;top: -16px;">•</p></p></div>
   
                 </div>
@@ -891,7 +911,7 @@ function smoothScrollTo(scrollContainer, targetPosition, duration) {
 
 </div>
 
-                <div class="scrollimg hideimg" id="imgkeber">
+                <div class="scrollimg hideimg" id="imgkeber" >
                   <div class="img" style="height: 60%;">
                     <div class="imgtitle"><p class="imgtext">Kebersihan menyalurkan dana di Desa Fukang, Gunungkidul //</p><p class="bullet"><p style="color: red;  display: inline;margin: 1px; top: -16px;">•</p><p style="color: rgb(255, 200, 0);  display: inline;margin: 1px;top: -16px;">•</p><p style="color: rgba(0, 184, 37, 0.714);  display: inline; margin: 1px;top: -16px;">•</p></p></div>
                   </div>
@@ -908,7 +928,7 @@ function smoothScrollTo(scrollContainer, targetPosition, duration) {
                   </div>
                   </div>
     
-                    <div class="scrollimg hideimg" id="imgpendi">
+                    <div class="scrollimg hideimg" id="imgpendi" >
                     <div class="img" style="height: 60%;">
                       <div class="imgtitle"><p class="imgtext">Pendi menyalurkan dana di Desa Fukang, Gunungkidul //</p><p class="bullet"><p style="color: red;  display: inline;margin: 1px; top: -16px;">•</p><p style="color: rgb(255, 200, 0);  display: inline;margin: 1px;top: -16px;">•</p><p style="color: rgba(0, 184, 37, 0.714);  display: inline; margin: 1px;top: -16px;">•</p></p></div>
                     </div>
@@ -925,7 +945,7 @@ function smoothScrollTo(scrollContainer, targetPosition, duration) {
                     </div>
 
 </div>
-                    <div class="scrollimg hideimg" id="imgkedis">
+                    <div class="scrollimg hideimg" id="imgkedis" >
                       <div class="img" style="height: 60%;">
                         <div class="imgtitle"><p class="imgtext">kedis menyalurkan dana di Desa Fukang, Gunungkidul //</p><p class="bullet"><p style="color: red;  display: inline;margin: 1px; top: -16px;">•</p><p style="color: rgb(255, 200, 0);  display: inline;margin: 1px;top: -16px;">•</p><p style="color: rgba(0, 184, 37, 0.714);  display: inline; margin: 1px;top: -16px;">•</p></p></div>
                       </div>
@@ -942,7 +962,7 @@ function smoothScrollTo(scrollContainer, targetPosition, duration) {
                       </div>
 </div>
 
-                      <div class="scrollimg hideimg" id="imgbahas">
+                      <div class="scrollimg hideimg" id="imgbahas" >
                         <div class="img" style="height: 60%;">
                           <div class="imgtitle"><p class="imgtext">bahas menyalurkan dana di Desa Fukang, Gunungkidul //</p><p class="bullet"><p style="color: red;  display: inline;margin: 1px; top: -16px;">•</p><p style="color: rgb(255, 200, 0);  display: inline;margin: 1px;top: -16px;">•</p><p style="color: rgba(0, 184, 37, 0.714);  display: inline; margin: 1px;top: -16px;">•</p></p></div>
                         </div>
@@ -956,7 +976,7 @@ function smoothScrollTo(scrollContainer, targetPosition, duration) {
                           <div class="imgtitle"><p class="imgtext">Humas menyalurkan dana di Desa Fukang, Gunungkidul //</p><p class="bullet"><p style="color: red;  display: inline;margin: 1px; top: -16px;">•</p><p style="color: rgb(255, 200, 0);  display: inline;margin: 1px;top: -16px;">•</p><p style="color: rgba(0, 184, 37, 0.714);  display: inline; margin: 1px;top: -16px;">•</p></p></div>
                         </div>
                       </div>
-                        <div class="scrollimg hideimg" id="imgmedia">
+                        <div class="scrollimg hideimg" id="imgmedia" >
                           <div class="img" style="height: 60%;">
                             <div class="imgtitle"><p class="imgtext">media menyalurkan dana di Desa Fukang, Gunungkidul //</p><p class="bullet"><p style="color: red;  display: inline;margin: 1px; top: -16px;">•</p><p style="color: rgb(255, 200, 0);  display: inline;margin: 1px;top: -16px;">•</p><p style="color: rgba(0, 184, 37, 0.714);  display: inline; margin: 1px;top: -16px;">•</p></p></div>
                           </div>
@@ -970,9 +990,11 @@ function smoothScrollTo(scrollContainer, targetPosition, duration) {
                           <div class="img" style="height: 20%;">
                             <div class="imgtitle"><p class="imgtext">Humas menyalurkan dana di Desa Fukang, Gunungkidul //</p><p class="bullet"><p style="color: red;  display: inline;margin: 1px; top: -16px;">•</p><p style="color: rgb(255, 200, 0);  display: inline;margin: 1px;top: -16px;">•</p><p style="color: rgba(0, 184, 37, 0.714);  display: inline; margin: 1px;top: -16px;">•</p></p></div>
                           </div>
+                          </div>
               </li>
               <li class="nav-item" id="i2"  style="--i:1; --offsetdone: -2vw;--color: var(--color-gold)" tabindex="2">
                 <h1 class="header">↑     Publications</h1>
+  
                 <div class="sub showpub" id="publihumas">
                   <p style=" margin-top: 20px; font-size: large; font-weight: bolder; font-family: Fraktion;">21/06/25</p>
                   <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur pr humas quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
@@ -1098,78 +1120,131 @@ function smoothScrollTo(scrollContainer, targetPosition, duration) {
               </li>
               <li class="nav-item" id="i3" style="--i:2; --offsetdone: -2vw;--color: var(--color-purple)" tabindex="3">
                 <h1 class="header">↑      Proker</h1>
-                <div class="sub hide " id="prokerorkes" style=" padding-left: 20px; padding-top: 40px; width: 70%; left: 0; position: absolute; text-align: left;">
-                  <p style=" margin-top: 20px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Orkes Dolor sit Amet</p>
-                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker orkes quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
-                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Orkes Dolor sit Amet</p>
-                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker orkes quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
-                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Orkes Dolor sit Amet</p>
-                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker orkes quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
 
-                
+                <div class="sub hide proker" id="prokerpendi">
+                  <p style=" margin-top: 20px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Pendi Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker humas quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Humas Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker humas quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Humas Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker humas quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Bahasa Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker bahasa quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Bahasa Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker bahasa quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Bahasa Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker bahasa quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
                 </div>
-                <div class="sub hide" id="prokerkeber" style="padding-left: 20px; padding-top: 40px; width: 70%; left: 0; position: absolute; text-align: left;;">
-                    <p style=" margin-top: 20px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Kebersihan Dolor sit Amet</p>
-                    <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker kebersihan quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
-                    <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Kebersihan Dolor sit Amet</p>
-                    <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker kebersihan quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
-                    <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Kebersihan Dolor sit Amet</p>
-                    <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker kebersihan quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
-  
-                </div>
-                <div class="sub show" id="prokerhumas" style="padding-left: 20px; padding-top: 40px; width: 70%; left: 0; position: absolute; text-align: left;">
+             
+                <div class="sub show proker" id="prokerhumas">
                   <p style=" margin-top: 20px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Humas Dolor sit Amet</p>
                   <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker humas quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
                   <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Humas Dolor sit Amet</p>
                   <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker humas quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
                   <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Humas Dolor sit Amet</p>
                   <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker humas quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
-
-                </div>
-                <div class="sub hide" id="prokerpendi" style="padding-left: 20px; padding-top: 40px; width: 70%; left: 0; position: absolute; text-align: left;">
-                  <p style=" margin-top: 20px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Pendidikan Dolor sit Amet</p>
-                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker pendidikan quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
-                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Pendidikan Dolor sit Amet</p>
-                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker pendidikan quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
-                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Pendidikan Dolor sit Amet</p>
-                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker pendidikan quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
-
-                </div>
-                <div class="sub hide" id="prokerkedis" style="padding-left: 20px; padding-top: 40px; width: 70%; left: 0; position: absolute; text-align: left;">
-                  <p style=" margin-top: 20px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Kedisiplinan Dolor sit Amet</p>
-                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker kedisiplinan quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
-                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Kedisiplinan Dolor sit Amet</p>
-                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker kedisiplinan quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
-                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Kedisiplinan Dolor sit Amet</p>
-                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker kedisiplinan quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
-
-                </div>
-                <div class="sub hide" id="prokerbahas" style="padding-left: 20px; padding-top: 40px; width: 70%; left: 0; position: absolute; text-align: left;">
-                  <p style=" margin-top: 20px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Bahasa Dolor sit Amet</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Bahasa Dolor sit Amet</p>
                   <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker bahasa quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
                   <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Bahasa Dolor sit Amet</p>
                   <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker bahasa quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
                   <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Bahasa Dolor sit Amet</p>
                   <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker bahasa quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
-
                 </div>
-                <div class="sub hide" id="prokermedia" style="padding-left: 20px; padding-top: 40px; width: 70%; left: 0; position: absolute; text-align: left;;">
+
+                <div class="sub hide proker" id="prokermedia">
                   <p style=" margin-top: 20px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Media Dolor sit Amet</p>
-                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker media quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
-                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Media Dolor sit Amet</p>
-                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker media quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
-                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Media Dolor sit Amet</p>
-                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker media quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker humas quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Humas Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker humas quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Humas Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker humas quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Bahasa Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker bahasa quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Bahasa Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker bahasa quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Bahasa Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker bahasa quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                </div>
 
+                <div class="sub hide proker" id="prokerbahas">
+                  <p style=" margin-top: 20px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem bahas Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker humas quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Humas Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker humas quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Humas Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker humas quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Bahasa Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker bahasa quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Bahasa Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker bahasa quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Bahasa Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker bahasa quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                </div>
+             
+
+                <div class="sub hide proker" id="prokerorkes">
+                  <p style=" margin-top: 20px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem orkes Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker humas quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Humas Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker humas quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Humas Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker humas quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Bahasa Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker bahasa quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Bahasa Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker bahasa quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Bahasa Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker bahasa quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                </div>
+             
+
+                <div class="sub hide proker" id="prokerkeber">
+                  <p style=" margin-top: 20px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem keber Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker humas quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Humas Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker humas quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Humas Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker humas quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Bahasa Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker bahasa quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Bahasa Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker bahasa quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Bahasa Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker bahasa quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                </div>
+
+                <div class="sub hide proker" id="prokerkedis">
+                  <p style=" margin-top: 20px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem kedis Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker humas quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Humas Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker humas quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Humas Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker humas quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Bahasa Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker bahasa quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Bahasa Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker bahasa quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                  <p style=" margin-top: 100px; font-size: large; font-weight: bolder; font-family: Fraktion;">Lorem Bahasa Dolor sit Amet</p>
+                  <p style=" margin-top:20px; font-size: 12px; font-weight:normal; font-family: Fraktion;">Consecteur proker bahasa quel est un chateu de eglise une libre bibliothecamcogitare elit, sed do eiusmod tempor incididunt ut labore et exercitatio</p>
+                </div>
+             
+             
+             
                 </div>
               </li>
             </ul>
           </nav>
         </div>
+      <div class="bento__item" id="eventsname" style="--height: span 6; --width: span 3;">
+        <p class="title">Events</p>
       </div>
-
+      <div class="bento__item" id="eventscontent" style="--height: span 6; --width: span 6;">
+        <p id="ephotos" class="activermen"style="--offset: -70px;">Photos</p>
+        <p id="edivider" style="--offset: 0px;">/</p>
+        <p id="evideos" class="desactivermen" style="--offset: 20px">Videos</p>
+      </div>
     <div class="bento__item" id="contacts" style="--height: span 8; --width: span 9;">
-      <h2 style="color: white; font-family: fraktion; margin-left: 50px; margin-top: 30px;">Contacts</h2>
+      <p class="title">Contacts</p>
       <div class="contcont">
         <div class="contitem une"></div>
         <a href="https://www.lipsum.com/" target="_blank">
